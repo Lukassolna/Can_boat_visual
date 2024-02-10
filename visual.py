@@ -7,7 +7,7 @@ from CAN import receive_can_message
 import random
 #from CAN import update_pos
 
-
+# Simulating a boat and draw it for a visual representaiton
 def draw_water():
     glBegin(GL_QUADS)
     glColor3f(0, 0, 1) 
